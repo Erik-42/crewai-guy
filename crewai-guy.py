@@ -2,8 +2,12 @@ import os
 from flask import Flask, request, render_template, jsonify
 from crewai import Agent, Task, Crew
 from langchain_community.llms import HuggingFaceEndpoint
+# from langchain_community.llms import Ollama
+# from langchain_openai import ChatOpenAI
+# from langchain_community.llms import HuggingFaceHub
 
-app = Flask(__name__)
+# Définition de l'application Flask avec un dossier statique personnalisé
+app = Flask(__name__, static_folder='/static')
 
 # Configuration du modèle
 # llm = Ollama(model="mistral")  # Pour utiliser Ollama
@@ -11,10 +15,15 @@ app = Flask(__name__)
 llm = HuggingFaceEndpoint(
     endpoint_url="https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1",
     huggingfacehub_api_token=os.environ.get('HUGGINGFACEHUB_API_TOKEN'),
-#     model_kwargs={"temperature": 0.5, "max_new_tokens": 500}
-    temperature=0.5,
-    max_new_tokens=500
+    model_kwargs={"temperature": 0.5, "max_new_tokens": 500}
+#    temperature=0.5,
+#    max_new_tokens=500
 )
+
+# llm = HuggingFaceHub(
+#    repo_id="deepseek-ai/deepseek-coder-6.7b-instruct",
+#    model_kwargs={"temperature": 0.5, "max_new_tokens": 500}
+# ) #pour utiliser DeepSeek
 
 # Créez un agent
 agent = Agent(
@@ -41,7 +50,7 @@ crew = Crew(
 
 @app.route('/crewai', methods=['GET'])
 def index():
-    return render_template('templates/guy/index.html')
+    return render_template('guy/index.html')
 
 @app.route('/run_crewai', methods=['GET'])
 def run_crewai():

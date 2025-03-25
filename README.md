@@ -3,7 +3,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<!-- Titre à modifiés -->
 
   <h1>CrewAI Manager</h1>
 
@@ -105,6 +104,7 @@ CrewAI Manager est une interface web pour gérer et interagir avec CrewAI, un fr
 2. Installer les dépendances dans l'environnement virtuel.
 3. Configurer n8n et Syncthing selon les besoins.
 4. Lancer l'application Flask.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Les instructions d'utilisation à modifiés -->
@@ -139,25 +139,26 @@ crew-ai/
 ├── start_crew.sh
 ├── assets/
 │ ├── img/
-│ │ ├── logos/
-│ │ │ ├── product/
-│ │ │ │ ├── logo-crewai.png
-│ │ │ │ └── logo-interface.jpeg
-│ │ │ └── perso/
-│ │ │   ├── logo-Erik-42-souris-v1.jpg
-│ │ │   └── bmc_qr.png
-│ └── docs/
-│  └── cv/
-│    └── Cv-Erik_Mesen.pdf
+│ │ └── logos/
+│ │   ├── product/
+│ │   │ ├── logo-crewai.png
+│ │   │ └── logo-interface.jpeg
+│ │   └── perso/
+│ │     ├── logo-Erik-42-souris-v1.jpg
+│ │     └── bmc_qr.png
+│ ├── docs/
+│ │ └── cv/
+│ │   └── Cv-Erik_Mesen.pdf
+│ └──── notice.txt
 ├── templates/
 │ └── guy/
 │   ├── index.html (Interface utilisateur principale)
-│   └── style
-│     └── style-index.css
+│   ├── style
+│   │ └── style-index.css
 │   └── js/
 │     ├── script-index.js
 │     ├── script-dark-mode.js
-│   └── script-crew-ai.js
+│     └── script-crew-ai.js
 └── crew-env/ (Environnement virtuel Python)
 ```
 
@@ -171,11 +172,9 @@ Exemple:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- La license à modifiés -->
-
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GNU General Public License v3.0. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

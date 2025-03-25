@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CrewAI Manager</title>
-    <link rel="stylesheet" href="./style/style-index.css" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style-index.css') }}"
+    />
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <link
@@ -17,7 +20,7 @@
     <div class="container">
       <h1>CrewAI Manager</h1>
       <button id="runButton">Lancer CrewAI</button>
-      <button id="toggleDarkMode">Activer le mode sombre</button>
+      <button id="toggleDarkMode">Désactiver le mode sombre</button>
       <button onclick="runCrewAI()">Exécuter CrewAI</button>
       <div id="result"></div>
 
@@ -35,8 +38,17 @@
       <div id="result"></div>
     </div>
 
-    <script defer src="./js/script-index.js"></script>
-    <script defer src="./js/script-dark-mode.js"></script>
-    <script defer src="./js/script-crew-ai.js"></script>
+    <script
+      defer
+      src="{{ url_for('static', filename='js/script-index.js') }}"
+    ></script>
+    <script
+      defer
+      src="{{ url_for('static', filename='js/script-dark-mode.js') }}"
+    ></script>
+    <script
+      defer
+      src="{{ url_for('static', filename='js/script-crew-ai.js') }}"
+    ></script>
   </body>
 </html>

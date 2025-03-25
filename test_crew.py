@@ -5,10 +5,6 @@ from crewai import Agent, Task, Crew, Process
 # from langchain_community.llms import HuggingFaceHub
 from langchain_huggingface import HuggingFaceEndpoint
 
-## !/bin/bash
-source /home/Leonard/crew-ai/crew-env/bin/activate
-python /home/Leonard/crew-ai/test_crew.py
-
 ## Configuration du modèle Ollama
 # llm = Ollama(model="llama3") # local
 # llm = Ollama(model="mistral")  # modèle plus léger local
@@ -18,7 +14,9 @@ llm = HuggingFaceEndpoint(
 #     repo_id="mistralai/Mistral-7B-Instruct-v0.1",
 #     huggingfacehub_api_token="votre_api_token_ici",
     huggingfacehub_api_token=os.getenv("HUGGINGFACEHUB_API_TOKEN"),
-    model_kwargs={"temperature": 0.5, "max_new_tokens": 500}
+#    model_kwargs={"temperature": 0.5, "max_new_tokens": 500}
+    temperature=0.5,
+    max_new_tokens=500
 )
 # llm = HuggingFaceHub(
 #    repo_id="deepseek-ai/deepseek-coder-6.7b-instruct",
