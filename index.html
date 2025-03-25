@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template New Project</title>
+    <link rel="stylesheet" href="./style/style-index.css">
+    <script defer src="./js/script-common.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/ashes.min.css">
+
+</head>
+
+<body>
+    <!-- <input id="search" type="text" placeholder="Search" autocomplete="off"> -->
+    <header>
+        <h1>Template New Project</h1>
+        <p>Modèle pour les nouveau projets </p>
+    </header>
+    
+    <main class="main-content">
+
+        <div id="text-viewer" class="modal">
+           <div class="modal-content">
+                <div id="file-content" class="markdown-content"></div>
+                <button onclick="closeViewer()" class="close-btn">Fermer [ESC]</button>
+            </div>
+        </div>
+
+        <div class="file-browser">
+            <div class="file-item file" data-is-text="true"    data-file-path="README.md">
+                <a href="./README.md">
+        📄          <span>README.md</span>
+                </a>
+            </div>
+        </div>
+
+            <div class="file-item folder">
+                <a href="./assets/docs/documentation-projet/">
+                    📁 Documentation
+                </a>
+            </div>
+            <div class="file-item folder">
+                <a href="./code-source/">
+                    📁 Code source
+                </a>
+            </div>
+            <div class="file-item folder">
+                <a href="./assets/data/">
+                    📁 Data
+                </a>
+            </div>
+            <div class="file-item folder">
+                <a href="./assets/">
+                    📁 Assets
+                </a>
+            </div>
+            <div class="file-item file" data-is-text="true" data-file-path="project-structure.json">
+                <a href="./project-structure.json">
+        📄          <span>Structure projet</span>
+                </a>
+            </div>
+            <div class="file-item file" data-is-text="true" data-file-path="LICENSE">
+                <a href="./LICENSE">
+        📄          <span>LICENSE</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+     <footer>
+        <p>© 2025-<span id="current-year"></span> Basille_Corp. Tous droits réservés.</p>
+    </footer>
+
+
+</body>
+</html>

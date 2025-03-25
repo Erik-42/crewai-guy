@@ -1,0 +1,735 @@
+[
+  {
+    "name": ".git",
+    "type": "directory",
+    "children": [
+      {
+        "name": "COMMIT_EDITMSG",
+        "type": "file"
+      },
+      {
+        "name": "FETCH_HEAD",
+        "type": "file"
+      },
+      {
+        "name": "HEAD",
+        "type": "file"
+      },
+      {
+        "name": "branches",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "name": "config",
+        "type": "file"
+      },
+      {
+        "name": "description",
+        "type": "file"
+      },
+      {
+        "name": "hooks",
+        "type": "directory",
+        "children": [
+          {
+            "name": "applypatch-msg.sample",
+            "type": "file"
+          },
+          {
+            "name": "commit-msg.sample",
+            "type": "file"
+          },
+          {
+            "name": "fsmonitor-watchman.sample",
+            "type": "file"
+          },
+          {
+            "name": "post-update.sample",
+            "type": "file"
+          },
+          {
+            "name": "pre-applypatch.sample",
+            "type": "file"
+          },
+          {
+            "name": "pre-commit.sample",
+            "type": "file"
+          },
+          {
+            "name": "pre-merge-commit.sample",
+            "type": "file"
+          },
+          {
+            "name": "pre-push.sample",
+            "type": "file"
+          },
+          {
+            "name": "pre-rebase.sample",
+            "type": "file"
+          },
+          {
+            "name": "pre-receive.sample",
+            "type": "file"
+          },
+          {
+            "name": "prepare-commit-msg.sample",
+            "type": "file"
+          },
+          {
+            "name": "push-to-checkout.sample",
+            "type": "file"
+          },
+          {
+            "name": "update.sample",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "index",
+        "type": "file"
+      },
+      {
+        "name": "info",
+        "type": "directory",
+        "children": [
+          {
+            "name": "exclude",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "logs",
+        "type": "directory",
+        "children": [
+          {
+            "name": "HEAD",
+            "type": "file"
+          },
+          {
+            "name": "refs",
+            "type": "directory",
+            "children": [
+              {
+                "name": "heads",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "main",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "remotes",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "origin",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "HEAD",
+                        "type": "file"
+                      },
+                      {
+                        "name": "main",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "objects",
+        "type": "directory",
+        "children": [
+          {
+            "name": "05",
+            "type": "directory",
+            "children": [
+              {
+                "name": "814a63e0c8879941b2d1b0ba21f5e01c764474",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "07",
+            "type": "directory",
+            "children": [
+              {
+                "name": "52579adb0cbf72e70434f1681f75d39120d91e",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "12",
+            "type": "directory",
+            "children": [
+              {
+                "name": "888759d09e972ea53dafda9f9a254f08a01d73",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "1b",
+            "type": "directory",
+            "children": [
+              {
+                "name": "0a5af5486e7e506cfaac36f02aeb459ca7e326",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "24",
+            "type": "directory",
+            "children": [
+              {
+                "name": "7a2a6a15d08e50b203a8a0e3af757e65510474",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "33",
+            "type": "directory",
+            "children": [
+              {
+                "name": "a35505eaf3debe374b36672cadd93c9cb684bf",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "3a",
+            "type": "directory",
+            "children": [
+              {
+                "name": "d54472394d27eb1bc230831d2bf1baf49bbe5f",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "49",
+            "type": "directory",
+            "children": [
+              {
+                "name": "018f21d73081b4f03f586a4e12a18d41230cac",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "4a",
+            "type": "directory",
+            "children": [
+              {
+                "name": "ce3a00b4793d3a962a74c78fdc1df24340ebf4",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "56",
+            "type": "directory",
+            "children": [
+              {
+                "name": "1653457dbf82465348379bb8666f20829ceed7",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "58",
+            "type": "directory",
+            "children": [
+              {
+                "name": "4c5fce7293f3b32832a00f7e8f5bae33cf68ea",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "5b",
+            "type": "directory",
+            "children": [
+              {
+                "name": "baf49b475d9f79cab0e52a3eaa1d9b1991cdbb",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "61",
+            "type": "directory",
+            "children": [
+              {
+                "name": "0d261f443dda3ab9d99fe78ea4faa7ae678e51",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "68",
+            "type": "directory",
+            "children": [
+              {
+                "name": "bf7ed0de853f8bcb6581428dc75f2de66fc1fb",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "6a",
+            "type": "directory",
+            "children": [
+              {
+                "name": "6ce48c5330fd153ad031bac4e7bcd1e2f45b99",
+                "type": "file"
+              },
+              {
+                "name": "6f45ad08ecf76e0144a567b0ca697b462a0750",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "72",
+            "type": "directory",
+            "children": [
+              {
+                "name": "0d3b278b370585e9b906579faebb84a27eb72a",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "7a",
+            "type": "directory",
+            "children": [
+              {
+                "name": "9e695dc2960ed9f112d4d96fbcdfb217cd1a4e",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "7b",
+            "type": "directory",
+            "children": [
+              {
+                "name": "39df0ec28cb60383373393a3c8e08c107e0f32",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "7d",
+            "type": "directory",
+            "children": [
+              {
+                "name": "ad47981b7d236ff4d64a5af91396d0eaa9b33e",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "7e",
+            "type": "directory",
+            "children": [
+              {
+                "name": "7d32ec878322a0dba5987f55f24629328c83cf",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "86",
+            "type": "directory",
+            "children": [
+              {
+                "name": "f8cba0ff47c41f47fb3ac61daf91e8e9d39fd7",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "95",
+            "type": "directory",
+            "children": [
+              {
+                "name": "4980438934dfd567b606fdd770266bb125007b",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "96",
+            "type": "directory",
+            "children": [
+              {
+                "name": "7f64baf5d3d7faff27c5e47159891c9ada3b60",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "99",
+            "type": "directory",
+            "children": [
+              {
+                "name": "1f989fb201bc5e92cfd8bb26efe3f675bd8575",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "9e",
+            "type": "directory",
+            "children": [
+              {
+                "name": "92cf4ba5e1b930d34109a77334812b213ef5e0",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "a3",
+            "type": "directory",
+            "children": [
+              {
+                "name": "22097b791a399ebeb95ce1fa82c79b0b58a14a",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "ac",
+            "type": "directory",
+            "children": [
+              {
+                "name": "9cdc2022f44302ee4bf2a4d1d0c1bddae69ad1",
+                "type": "file"
+              },
+              {
+                "name": "f100a56ed7e241ee9264579206f709d56dccc9",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "b8",
+            "type": "directory",
+            "children": [
+              {
+                "name": "d8d4be3f400ecef8a5e0ef7a80fa9e16c4ae1d",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "b9",
+            "type": "directory",
+            "children": [
+              {
+                "name": "5191d84b3d5f543f1e8931da7f344087069cc2",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "c5",
+            "type": "directory",
+            "children": [
+              {
+                "name": "30b23d3a0a66710326d1fb16e4a27b8764decd",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "d1",
+            "type": "directory",
+            "children": [
+              {
+                "name": "507ba466b1d2764b2737fea0eadf64b9ce9447",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "d2",
+            "type": "directory",
+            "children": [
+              {
+                "name": "353b263b426d3d3df0910d845ee363bbf62c45",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "d5",
+            "type": "directory",
+            "children": [
+              {
+                "name": "36dcf16a6faf4120ddac6fe98035a878a571e1",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "df",
+            "type": "directory",
+            "children": [
+              {
+                "name": "47cf56660251e731a34bc1620e923e3ecbf237",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "eb",
+            "type": "directory",
+            "children": [
+              {
+                "name": "cf9265c9ac91ca1fb0802c0aadf3ab1027c688",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "ec",
+            "type": "directory",
+            "children": [
+              {
+                "name": "c27ceba71f35bfa5a1bfcdf4a0e74de39ab117",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "ee",
+            "type": "directory",
+            "children": [
+              {
+                "name": "9eb51ab3161f27a16e8ee10738812c674a514e",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "info",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "name": "pack",
+            "type": "directory",
+            "children": [
+              {
+                "name": "pack-0916d2297f756acf66030ac5844e1dad268ed83f.idx",
+                "type": "file"
+              },
+              {
+                "name": "pack-0916d2297f756acf66030ac5844e1dad268ed83f.pack",
+                "type": "file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "packed-refs",
+        "type": "file"
+      },
+      {
+        "name": "refs",
+        "type": "directory",
+        "children": [
+          {
+            "name": "heads",
+            "type": "directory",
+            "children": [
+              {
+                "name": "main",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "remotes",
+            "type": "directory",
+            "children": [
+              {
+                "name": "origin",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "HEAD",
+                    "type": "file"
+                  },
+                  {
+                    "name": "main",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tags",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ".gitignore",
+    "type": "file"
+  },
+  {
+    "name": "LICENSE",
+    "type": "file"
+  },
+  {
+    "name": "README.md",
+    "type": "file"
+  },
+  {
+    "name": "assets",
+    "type": "directory",
+    "children": [
+      {
+        "name": "data",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "name": "docs",
+        "type": "directory",
+        "children": [
+          {
+            "name": "cv",
+            "type": "directory",
+            "children": [
+              {
+                "name": "Cv-Erik_Mesen.pdf",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "documentation-projet",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "img",
+        "type": "directory",
+        "children": [
+          {
+            "name": "logos",
+            "type": "directory",
+            "children": [
+              {
+                "name": "perso",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "bmc_qr.png",
+                    "type": "file"
+                  },
+                  {
+                    "name": "logo-Erik-42-souris-v1.jpg",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "product",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "lecnam-768x768.png",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "code-source",
+    "type": "directory",
+    "children": [
+      {
+        "name": "python",
+        "type": "directory",
+        "children": [
+          {
+            "name": "first-code.py",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "export-project-structure-linux-v1",
+    "type": "file"
+  },
+  {
+    "name": "export-project-structure-macos-v1",
+    "type": "file"
+  },
+  {
+    "name": "export-project-structure-v1.js",
+    "type": "file"
+  },
+  {
+    "name": "export-project-structure-win-v1.exe",
+    "type": "file"
+  },
+  {
+    "name": "index.html",
+    "type": "file"
+  },
+  {
+    "name": "js",
+    "type": "directory",
+    "children": [
+      {
+        "name": "script-year.js",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": "style",
+    "type": "directory",
+    "children": [
+      {
+        "name": "style-index.css",
+        "type": "file"
+      }
+    ]
+  }
+]
