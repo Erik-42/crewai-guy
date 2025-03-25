@@ -5,7 +5,7 @@
 <div align="center">
 <!-- Titre à modifiés -->
 
-  <h1>Crew-Ai guy</h1>
+  <h1>CrewAI Manager</h1>
 
 [<img src="./assets/img/logos/product/logo-crewai.png" width="300">](https://github.com/Erik-42/crewai-guy.git)+[<img src="./assets/img/logos/product/logo-interface.jpeg" width="300">](https://github.com/Erik-42/crewai-guy.git)
 
@@ -41,84 +41,55 @@
 
 <!-- Les liens wakatime à modifiés -->
 
-Repo: [![wakatime](https://wakatime.com/badge/github/Erik-42/template-new-project.svg)](https://wakatime.com/badge/github/Erik-42/template-new-project)
+Repo: [![wakatime](https://wakatime.com/badge/github/Erik-42/crewai-guy.svg)](https://wakatime.com/badge/github/Erik-42/crewai-guy)
 <br/>
 Projet: [![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/6ae82360-c889-4287-92e6-789ee3dd9be6.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/6ae82360-c889-4287-92e6-789ee3dd9be6)
 
 </div>
 
-<!-- Description à modifiés -->
+## Description du projet
 
-### Description
+CrewAI Manager est une interface web pour gérer et interagir avec CrewAI, un framework d'intelligence artificielle collaborative. Ce projet intègre CrewAI avec d'autres outils d'automatisation et de synchronisation pour créer une plateforme puissante et flexible.
 
-Modèle pour les nouveaux projets
+### Composants principaux
 
-Il y a plusieurs éléments à modifiés dans ce modèle:
+1. **CrewAI** : Framework d'IA pour la création d'agents collaboratifs.
+2. **n8n** : Plateforme d'automatisation de workflows.
+3. **Syncthing** : Outil de synchronisation de fichiers décentralisé.
+4. **Flask** : Framework web Python pour l'interface utilisateur.
 
-- Le nom du projet
-- Le logo du projet
-- La description du projet
-- Les liens wakatime
-- Les liens des badges
-- Les OS supportés
-- Les technologies utilisées
-- Les instructions d'installation
-- Les instructions d'utilisation
-- Les instructions de test
-- La License
+### Fonctionnalités
+
+- Interface web pour interagir avec les agents CrewAI.
+- Intégration avec des modèles de langage via Hugging Face.
+- Automatisation de tâches et de workflows avec n8n.
+- Synchronisation de fichiers entre différents dispositifs avec Syncthing.
+
+#### Il y a plusieurs éléments à modifiés dans ce modèle:
+
+[x] - Le nom du projet
+
+[x] - Le logo du projet
+
+[x] - La description du projet
+
+[] - Les liens wakatime
+
+[] - Les liens des badges
+
+[] - Les OS supportés
+
+[] - Les technologies utilisées
+
+[] - Les instructions d'installation
+
+[x] - Les instructions d'utilisation
+
+[]- La License
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- OS à modifiés -->
-
-### OS supportés
-
-<!-- TABLE OF OS -->
-<details>
-  <summary>Table of OS</summary>
-  <ul>
-    <li>
-      <details>
-        <summary>Windows</summary>
-        <ul>
-          <li>- [x] Windows 7</li>
-          <li>- [x] Windows 10</li>
-          <li>- [x] Windows 11</li>
-          <li>- [ ] Windows Server</li>
-        </ul>
-      </details>
-    </li>
-    <li>
-      <details>
-        <summary>Mac</summary>
-        <ul>
-          <li>- [x] Mac OS X</li>
-          <li>- [x] Mac OS Catalina</li>
-          <li>- [x] Mac OS Big Sur</li>
-          <li>- [ ] Mac OS Sierra</li>
-          <li>- [ ] Mac OS Lion</li>
-        </ul>
-      </details>
-    </li>
-    <li>
-      <details>
-        <summary>Linux</summary>
-        <ul>
-          <li>- [x] Ubuntu</li>
-          <li>- [x] Debian</li>
-          <li>- [ ] Fedora</li>
-          <li>- [ ] Arch</li>
-          <li>- [ ] CentOS</li>
-          <li>- [ ] Red Hat</li>
-        </ul>
-      </details>
-    </li>
-  </ul>
-</details>
-
-<!-- Techons à modifiés -->
-
-### Built with
+## Built with
 
 <p> </p>
 <a href=https://github.com/Erik-42?tab=repositories&q=&type=&language=html&sort= > <img width ='32px' height='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/html.svg'> </a>
@@ -130,34 +101,74 @@ Il y a plusieurs éléments à modifiés dans ce modèle:
 
 <!-- Les instructions d'installation à modifiés -->
 
-## Installation
+## Installation et configuration
 
+1. Cloner le repository.
+2. Installer les dépendances dans l'environnement virtuel.
+3. Configurer n8n et Syncthing selon les besoins.
+4. Lancer l'application Flask.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Les instructions d'utilisation à modifiés -->
 
-## Usage
+## Utilisation
+
+Accédez à l'interface web via `http://[adresse-ip]:5000/crewai` pour interagir avec CrewAI et gérer vos agents et tâches.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Les instructions de test à modifiés -->
 
-## Testez le projet
+## Tests
 
+Utilisez `test-crew.py` pour exécuter des tests sur les fonctionnalités de CrewAI.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Développement futur
+
+- Amélioration de l'interface utilisateur.
+- Intégration plus poussée entre CrewAI, n8n et Syncthing.
+- Ajout de nouvelles fonctionnalités pour la gestion des agents et des tâches.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Structure du projet
 
+```
+crew-ai/
+├── crewai-guy.py (Script principal Flask)
+├── test-crew.py
+├── start_crew.sh
+├── assets/
+│ ├── img/
+│ │ ├── logos/
+│ │ │ ├── product/
+│ │ │ │ ├── logo-crewai.png
+│ │ │ │ └── logo-interface.jpeg
+│ │ │ └── perso/
+│ │ │   ├── logo-Erik-42-souris-v1.jpg
+│ │ │   └── bmc_qr.png
+│ └── docs/
+│  └── cv/
+│    └── Cv-Erik_Mesen.pdf
+├── templates/
+│ └── guy/
+│   ├── index.html (Interface utilisateur principale)
+│   └── style
+│     └── style-index.css
+│   └── js/
+│     ├── script-index.js
+│     ├── script-dark-mode.js
+│   └── script-crew-ai.js
+└── crew-env/ (Environnement virtuel Python)
+```
+
 Si vous souhaitez exporter la structure du projet
-saisissez la commande suivante dans le terminal:
-
-`node export-file-structure.js`
+copier le fichier `export-project-structure-"VOTRE-OS"-v1` qui est dans le dossier `tools` vers le dossier racine du projet et
+double clicker dessus
 <br/>
 
-ou
-
-double clicker sur le fichier:
-<br/>
+Exemple:
 [export-project-structure-linux-v1](export-project-structure-linux-v1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -212,14 +223,14 @@ Contactez moi: [erik.mesen@basillecorp.dev](mailto:erik.mesen@basillecorp.dev)
 
 <!-- Les liens badges à modifié -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Erik-42/template-new-project
-[contributors-url]: https://github.com/Erik-42/template-new-project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Erik-42/template-new-project
-[forks-url]: https://github.com/Erik-42/template-new-project/forks
-[issues-shield]: https://img.shields.io/github/issues-raw/Erik-42/template-new-project
-[issues-url]: https://github.com/Erik-42/template-new-project/issues
-[license-shield]: https://img.shields.io/github/license/Erik-42/template-new-project
-[license-url]: https://github.com/Erik-42/template-new-project/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Erik-42/crewai-guy
+[contributors-url]: https://github.com/Erik-42/crewai-guy/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Erik-42/crewai-guy
+[forks-url]: https://github.com/Erik-42/crewai-guy/forks
+[issues-shield]: https://img.shields.io/github/issues-raw/Erik-42/crewai-guy
+[issues-url]: https://github.com/Erik-42/crewai-guy/issues
+[license-shield]: https://img.shields.io/github/license/Erik-42/crewai-guy
+[license-url]: https://github.com/Erik-42/crewai-guy/blob/master/LICENSE.txt
 
 <!-- Les badges de contact -
 NE PAS TOUCHER ! -->
@@ -230,15 +241,15 @@ NE PAS TOUCHER ! -->
 [stars-url]: https://github.com/Erik-42?tab=stars
 [github repo-shield]: https://img.shields.io/badge/Repositories-73-blue
 [github repo-url]: https://github.com/Erik-42/Erik-42?tab=repositories
-[github repo file count (file type)-shield]: https://img.shields.io/github/directory-file-count/Erik-42/template-new-project
-[github repo file count (file type)-url]: https://github.com/directory-file-count/Erik-42/template-new-project
+[github repo file count (file type)-shield]: https://img.shields.io/github/directory-file-count/Erik-42/crewai-guy
+[github repo file count (file type)-url]: https://github.com/directory-file-count/Erik-42/crewai-guy
 [wakatime-shield]: https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5.svg
 [wakatime-url]: https://wakatime.com/@f84d00d8-fee3-4ca3-803d-3daa3c7053a5
 [github badge-shield]: https://img.shields.io/badge/Github-Erik--42-155?style=for-the-badge&logo=github
 [github badge-url]: https://github.com/Erik-42
-[github all releases-shield]: https://github.com/Erik-42/template-new-project/total
-[github all releases-url]: https://github.com/Erik-42/template-new-project/releases
-[github repo size-shield]: https://img.shields.io/github/repo-size/Erik-42/template-new-project
-[github repo size-url]: https://github.com/Erik-42/template-new-project
+[github all releases-shield]: https://github.com/Erik-42/crewai-guy/total
+[github all releases-url]: https://github.com/Erik-42/crewai-guy/releases
+[github repo size-shield]: https://img.shields.io/github/repo-size/Erik-42/crewai-guy
+[github repo size-url]: https://github.com/Erik-42/crewai-guy
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/erik-mesen/
