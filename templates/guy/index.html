@@ -13,11 +13,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/ashes.min.css"
     />
   </head>
+
   <body>
     <div class="container">
       <h1>CrewAI-Webguy</h1>
       <button id="runButton">Lancer Crew Ai</button>
       <button id="toggleDarkMode">Activer le mode sombre</button>
+      <button onclick="runCrewAI()">Exécuter CrewAI</button>
+      <div id="result"></div>
 
       <h2>Créer ou Modifier un Fichier Python</h2>
       <form id="pythonFileForm">
@@ -32,8 +35,9 @@
 
       <div id="result"></div>
     </div>
+
     <script src="./js/script-index.js"></script>
     <script src="./js/script-dark-mode.js"></script>
-    <!-- Nouveau fichier pour le mode sombre -->
+    <script src="./js/script-crew-ai.js"></script>
   </body>
 </html>

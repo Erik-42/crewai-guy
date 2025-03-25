@@ -7,7 +7,7 @@
 
   <h1>Crew-Ai guy</h1>
 
-[<img src="./assets/img/logos/product/lecnam-768x768.png" width="300">](https://github.com/Erik-42/template-new-project.git)
+[<img src="./assets/img/logos/product/logo-crewai.png" width="300">](https://github.com/Erik-42/crewai-guy.git)+[<img src="./assets/img/logos/product/logo-interface.jpeg" width="300">](https://github.com/Erik-42/crewai-guy.git)
 
 </div>
 
