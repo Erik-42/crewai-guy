@@ -7,7 +7,7 @@
 
   <h1>CrewAI Manager</h1>
 
-[<img src="./assets/img/logos/product/logo-crewai.png" width="300">](https://github.com/Erik-42/crewai-guy.git)+[<img src="./assets/img/logos/product/logo-interface.jpeg" width="300">](https://github.com/Erik-42/crewai-guy.git)
+[<img src="./assets/img/logos/product/logo-crewai.png" width="300">](https://github.com/Erik-42/crewai-manager.git) + [<img src="./assets/img/logos/product/logo-interface.jpeg" width="300">](https://github.com/Erik-42/crewai-manager.git)
 
 </div>
 
@@ -39,11 +39,9 @@
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
 
-<!-- Les liens wakatime à modifiés -->
-
-Repo: [![wakatime](https://wakatime.com/badge/github/Erik-42/crewai-guy.svg)](https://wakatime.com/badge/github/Erik-42/crewai-guy)
+Repo: [![wakatime](https://wakatime.com/badge/github/Erik-42/crewai-manager.svg)](https://wakatime.com/badge/github/Erik-42/crewai-manager)
 <br/>
-Projet: [![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/6ae82360-c889-4287-92e6-789ee3dd9be6.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/6ae82360-c889-4287-92e6-789ee3dd9be6)
+Projet: [![wakatime](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/8da282fb-9d68-4024-bb72-5f514c4f309d.svg)](https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5/project/8da282fb-9d68-4024-bb72-5f514c4f309d)
 
 </div>
 
@@ -136,7 +134,7 @@ Utilisez `test-crew.py` pour exécuter des tests sur les fonctionnalités de Cre
 
 ```
 crew-ai/
-├── crewai-guy.py (Script principal Flask)
+├── crewai-manager.py (Script principal Flask)
 ├── test-crew.py
 ├── start_crew.sh
 ├── assets/
@@ -223,14 +221,14 @@ Contactez moi: [erik.mesen@basillecorp.dev](mailto:erik.mesen@basillecorp.dev)
 
 <!-- Les liens badges à modifié -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Erik-42/crewai-guy
-[contributors-url]: https://github.com/Erik-42/crewai-guy/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Erik-42/crewai-guy
-[forks-url]: https://github.com/Erik-42/crewai-guy/forks
-[issues-shield]: https://img.shields.io/github/issues-raw/Erik-42/crewai-guy
-[issues-url]: https://github.com/Erik-42/crewai-guy/issues
-[license-shield]: https://img.shields.io/github/license/Erik-42/crewai-guy
-[license-url]: https://github.com/Erik-42/crewai-guy/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Erik-42/crewai-manager
+[contributors-url]: https://github.com/Erik-42/crewai-manager/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Erik-42/crewai-manager
+[forks-url]: https://github.com/Erik-42/crewai-manager/forks
+[issues-shield]: https://img.shields.io/github/issues-raw/Erik-42/crewai-manager
+[issues-url]: https://github.com/Erik-42/crewai-manager/issues
+[license-shield]: https://img.shields.io/github/license/Erik-42/crewai-manager
+[license-url]: https://github.com/Erik-42/crewai-manager/blob/master/LICENSE.txt
 
 <!-- Les badges de contact -
 NE PAS TOUCHER ! -->
@@ -241,15 +239,15 @@ NE PAS TOUCHER ! -->
 [stars-url]: https://github.com/Erik-42?tab=stars
 [github repo-shield]: https://img.shields.io/badge/Repositories-73-blue
 [github repo-url]: https://github.com/Erik-42/Erik-42?tab=repositories
-[github repo file count (file type)-shield]: https://img.shields.io/github/directory-file-count/Erik-42/crewai-guy
-[github repo file count (file type)-url]: https://github.com/directory-file-count/Erik-42/crewai-guy
+[github repo file count (file type)-shield]: https://img.shields.io/github/directory-file-count/Erik-42/crewai-manager
+[github repo file count (file type)-url]: https://github.com/directory-file-count/Erik-42/crewai-manager
 [wakatime-shield]: https://wakatime.com/badge/user/f84d00d8-fee3-4ca3-803d-3daa3c7053a5.svg
 [wakatime-url]: https://wakatime.com/@f84d00d8-fee3-4ca3-803d-3daa3c7053a5
 [github badge-shield]: https://img.shields.io/badge/Github-Erik--42-155?style=for-the-badge&logo=github
 [github badge-url]: https://github.com/Erik-42
-[github all releases-shield]: https://github.com/Erik-42/crewai-guy/total
-[github all releases-url]: https://github.com/Erik-42/crewai-guy/releases
-[github repo size-shield]: https://img.shields.io/github/repo-size/Erik-42/crewai-guy
-[github repo size-url]: https://github.com/Erik-42/crewai-guy
+[github all releases-shield]: https://github.com/Erik-42/crewai-manager/total
+[github all releases-url]: https://github.com/Erik-42/crewai-manager/releases
+[github repo size-shield]: https://img.shields.io/github/repo-size/Erik-42/crewai-manager
+[github repo size-url]: https://github.com/Erik-42/crewai-manager
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/erik-mesen/
