@@ -5,7 +5,7 @@
 <div align="center">
 <!-- Titre à modifiés -->
 
-  <h1>Modèle pour les nouveaux projets</h1>
+  <h1>Crew-Ai guy</h1>
 
 [<img src="./assets/img/logos/product/lecnam-768x768.png" width="300">](https://github.com/Erik-42/template-new-project.git)
 
