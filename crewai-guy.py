@@ -41,7 +41,7 @@ crew = Crew(
 
 @app.route('/crewai', methods=['GET'])
 def index():
-    return render_template('guy/index.html')
+    return render_template('templates/guy/index.html')
 
 @app.route('/run_crewai', methods=['GET'])
 def run_crewai():
